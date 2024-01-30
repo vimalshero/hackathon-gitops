@@ -11,6 +11,7 @@ pipeline {
               cleanWs()
             }
         }
+    }
         stage('scm') {
             steps{
                 git branch: 'main', credentialsId: 'git', url: 'https://github.com/vimalshero/hackathon-gitops.git'
