@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hackathon-starter-app
-          image: vimalshero/hackathon-starter:1.0.0-2
+          image: vimalshero/hackathon-starter:1.0.0-4
           resources:
             limits:
               cpu: "1"
